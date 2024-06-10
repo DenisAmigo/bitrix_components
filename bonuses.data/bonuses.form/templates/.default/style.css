@@ -1,0 +1,108 @@
+.questionnaire-container {
+	display: inline-block;
+}
+.questionnaire-container h3 {
+	font-weight: bold;
+}
+.questionnaire-container .fs14 {
+	font-size: 14px !important;
+}
+.questionnaire-container .gray {
+	background-color: #ececec;
+	text-align: center;
+	padding: 30px 40px 40px;
+}
+.questionnaire-container .gray a.button {
+	font-size: 31px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	margin-top: 12px;
+}
+.questionnaire-container .gray a.button:after {
+	content: '';
+	background-image: url(images/cat.png);
+	width: 91px;
+	height: 56px;
+	float: right;
+	margin-top: -20px;
+	display: inline-block;
+}
+.questionnaire-container .gray h3 {
+	margin: 0;
+}
+.questionnaire-container .col-left-8, .questionnaire-container .col-right-4 {
+	position: relative;
+	min-height: 1px;
+	float: left;
+	width: 58%;
+}
+.questionnaire-container .col-right-4 {
+	float: right;
+	width: 37%;
+}
+.questionnaire-container .common_select, .questionnaire-container select {
+	width: 30% !important;
+}
+.questionnaire-container .common_select:last-child, .questionnaire-container select:last-child {
+	width: 36% !important;
+}
+.questionnaire-container .common_select .common_select-link {
+	height: 37px;
+}
+.questionnaire-container .common_select .common_select-link .trigger {
+	height: 35px;
+	line-height: 38px;
+}
+.questionnaire-container .common_select .common_select-link .ik_select_link_text {
+	line-height: 34px;
+}
+.questionnaire-container .form-control .orange {
+	color: #ea6c4d !important;
+}
+.questionnaire-container .filter input[type=checkbox] + label {
+	padding: 0 0 0 23px;
+	display: inline;
+}
+.questionnaire-container .gender.filter input[type=checkbox] + label {
+	padding: 0 17px 0 20px;
+}
+.questionnaire-container .form-control.gender > label {
+	width: 15%;
+}
+.questionnaire-container .column-wide {
+	width: 53%;
+	float: left;
+	padding-right: 14px;
+}
+.questionnaire-container .column-small {
+	width: 44%;
+	float: left;
+}
+.questionnaire-container .column-wide.first {
+	width: 50%;
+	padding-right: 0;
+}
+.questionnaire-container .column-small.second {
+	width: 50%;
+	padding-right: 0;
+}
+.questionnaire-container .inline {
+	display: inline;
+}
+.questionnaire-container .inlineBlock {
+	display: inline-block;
+}
+.questionnaire-container .small-info {
+	text-align: right;
+}
+.questionnaire-container .small-info span.bonuses {
+	font-weight: 800;
+}
+.questionnaire-container .response .info > div span + span {
+	 float: right;
+ }
+.questionnaire-container .response .info p {
+	color: #2f2f2f;
+	font-size: 10px;
+	margin: 8px 0;
+}
