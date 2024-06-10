@@ -1,0 +1,144 @@
+/*
+CUSTOM CSS-STYLE
+*/
+
+.ui-slider .ui-slider-handle { border-radius: 1.2em; outline: none; }
+.jq-selectbox { width: 100%; }
+.tabs-period label { 
+    border: 1px solid white;
+    border-bottom: 1px solid #b3b3b3;
+    border-radius: 3px 3px 0 0;
+    padding: 5px 15px;
+    margin-right: -4px; 
+    cursor: pointer;
+}
+.tabs-period label.active { 
+    border: 1px solid #b3b3b3;
+    border-bottom: none;
+} 
+
+
+.calculator {
+color: #555555 !important;
+display: block;
+}
+
+.calculator .header {
+	margin-bottom: 5px;
+}
+
+.calculator .result {
+    top: -12px;
+}
+
+.calculator .result .header {
+    margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.calculator .days-months {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.tabs-period label {
+	padding: 0 30px 0 0;
+    border: none;
+}
+
+.tabs-period label.active {
+    border: none;
+}
+
+.ui-widget.ui-widget-content {
+	border: 1px solid #247dfb  !important;
+}
+
+.jq-selectbox li:hover {
+	background-color: #247dfb  !important;
+}
+
+.ui-widget-header {
+	background: #247dfb url(images/ui-bg_gloss-wave_75_2191c0_500x100.png) 50% 50% repeat-x  !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+	border: 1px solid white  !important;
+    background: #247dfb url(images/ui-bg_glass_45_0078ae_1x400.png) 50% 50% repeat-x  !important;
+}
+
+.calc-result {
+	color: #247dfb;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.calc-btn {
+height: 50px;
+border-radius: 3px;
+border: 2px solid #247dfb;
+color: #247dfb  !important;
+width: 100%;
+display: block;
+padding: 0 6px;
+//line-height: 45px !important;
+position:relative;
+top: -10px;
+}
+
+.calc-btn:hover {
+background: #c5ddfe;
+}
+
+.calc-btn.active {
+background: #c5ddfe;
+}
+
+.max-calc {
+color: #247dfb !important;
+text-align: right;
+font-size: 10px;
+}
+
+.calc-btn span {
+position: relative;
+top: -10px;
+}
+
+.calc-btn.cb1:before {
+content: url(/local/templates/local_aspro-allcorp/images/icon-speed.png);
+position: relative;
+top: 3px;
+margin-right: 6px;
+}
+
+.calc-btn.cb2:before {
+content: url(/local/templates/local_aspro-allcorp/images/icon-time.png);
+position: relative;
+top: 3px;
+margin-right: 6px;
+}
+
+.calc-btn.cb3:before {
+content: url(/local/templates/local_aspro-allcorp/images/icon-star.png);
+position: relative;
+top: 3px;
+margin-right: 6px;
+}
+
+.calc-btn-block {
+    margin: 40px 0 20px 0;
+display: block;
+}
+
+.calculator .btn-primary {
+margin: 0;
+}
+
+.jq-selectbox__dropdown, .calculator {
+z-index: 9999;
+}
+
+.top-slider .text .inner {
+    padding-top: 70px;
+}
